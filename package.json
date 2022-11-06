@@ -1,0 +1,27 @@
+{
+  "name": "charge-bot",
+  "version": "1.0.0",
+  "description": "Charm's private bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "bash ./script/setup-env.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UrNightmaree/charge-bot.git"
+  },
+  "keywords": [],
+  "author": "UrNightmaree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UrNightmaree/charge-bot/issues"
+  },
+  "homepage": "https://github.com/UrNightmaree/charge-bot",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "eris": "^0.17.1",
+    "fengari": "^0.1.4",
+    "fengari-interop": "^0.1.3"
+  }
+}
